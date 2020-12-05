@@ -6,7 +6,7 @@ import random
 import numpy as np
 from os.path import join
 
-# convert vac annotation format to darknet format
+# convert voc annotation format to darknet format
 def xml_to_darknet(path):
     root = ElementTree().parse(path)
 
