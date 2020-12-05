@@ -1,0 +1,9 @@
+train: ../mask-detection-dataset/data/train.txt
+val: ../mask-detection-dataset/data/validate.txt
+test: ../mask-detection-dataset/data/test.txt
+
+# number of classes
+nc: 3
+
+# class names
+names: ['0', '1', '2']
